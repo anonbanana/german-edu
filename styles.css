@@ -943,6 +943,28 @@ a { color: var(--ink); }
   margin-top: 16px;
   max-width: 34ch;
 }
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  color: var(--muted);
+  transition: background 0.18s var(--ease), color 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.footer-social a:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--white);
+}
 .footer-col h3 {
   font-family: var(--sans);
   font-size: 0.74rem;
