@@ -1,0 +1,8 @@
+# Artefak lokal / tidak ikut diunggah
+.playwright-cli/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Sumber konten (hanya referensi lokal)
+_Website German Plus.pdf
